@@ -1,0 +1,73 @@
+/* File: components/ResultTable.css */
+
+.result-table {
+  margin-top: 20px;
+}
+
+.result-table h3 {
+  margin-bottom: 10px;
+}
+
+.result-table .averages {
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #3d3d3d;
+  border-radius: 4px;
+}
+
+.result-table .averages p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.result-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.result-table th,
+.result-table td {
+  border: 1px solid #555;
+  padding: 8px;
+  text-align: left;
+}
+
+.result-table th {
+  background-color: #3d3d3d;
+}
+
+.result-table input[type="number"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #555;
+  border-radius: 4px;
+  background-color: #4d4d4d;
+  color: #e0e0e0;
+}
+
+.result-table button {
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.result-table button:hover {
+  background-color: #45a049;
+}
+
+/* Optional: Highlight the Weighted Score Column */
+.result-table th:nth-child(7),
+.result-table td:nth-child(7) {
+  background-color: #5a5a5a;
+  color: #fff;
+}
+
+/* Additional Styling for Weighted Score Display */
+.result-table td:nth-child(7) {
+  font-weight: bold;
+}

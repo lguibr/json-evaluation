@@ -1,0 +1,59 @@
+/* src/components/ApiKeyConfig.css */
+
+.api-key-config {
+  background-color: #2d2d2d;
+  padding: 20px;
+  border-radius: 5px;
+  color: #e0e0e0;
+  max-width: 500px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.api-key-config h2 {
+  margin-top: 0;
+}
+
+.api-key-config label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.api-key-config input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #555;
+  border-radius: 4px;
+  background-color: #3d3d3d;
+  color: #e0e0e0;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.button-group .save-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-group .clear-button {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-group .save-button:hover,
+.button-group .clear-button:hover {
+  opacity: 0.9;
+}

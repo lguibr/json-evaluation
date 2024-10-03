@@ -1,0 +1,149 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  background: #2d2d2d;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+textarea,
+input[type='text'],
+input[type='number'] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #555;
+  border-radius: 4px;
+  background-color: #3d3d3d;
+  color: #e0e0e0;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 150px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:disabled {
+  background-color: #888;
+  cursor: not-allowed;
+}
+
+.dropzone-container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.dropzone {
+  flex: 1;
+  border: 2px dashed #555;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #3d3d3d;
+}
+
+.file-lists {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.file-lists ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.comparison {
+  margin-bottom: 20px;
+}
+
+.collapsible {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.collapsible:hover {
+  background-color: #45a049;
+}
+
+.content {
+  padding: 0 18px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #3d3d3d;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.result-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.result-table th,
+.result-table td {
+  border: 1px solid #555;
+  padding: 8px;
+  text-align: left;
+}
+
+.result-table th {
+  background-color: #3d3d3d;
+}
+
+.download-buttons {
+  margin-top: 20px;
+}
+
+h1,
+h2,
+h3 {
+  color: #4caf50;
+}
+
+.result-table .averages {
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #3d3d3d;
+  border-radius: 4px;
+}
+
+.result-table .averages p {
+  margin: 5px 0;
+  font-size: 16px;
+}
